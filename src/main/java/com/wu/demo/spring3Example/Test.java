@@ -11,6 +11,8 @@ public class Test {
 		context = new ClassPathXmlApplicationContext("springBeans.xml");
 		HelloWorld obj = (HelloWorld) context.getBean("helloBean");
 		obj.print();
+		
+		
 		/*context = new ClassPathXmlApplicationContext("spring-output.xml");
 		OutputHelper helper = (OutputHelper) context.getBean("outputHelper");
 		helper.generatorOutput();*/
